@@ -1,7 +1,9 @@
 print ('what is your name')
 name=input()
-if name == 'mitch' or 'Mitch':
+name = name.lower()
+
+if name == 'mitch':
     print ('correct')
 else:
-    print ('not mitch')
+    print ('not Mitch')
     
